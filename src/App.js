@@ -57,10 +57,8 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 700px;
-  @media (min-width: 767px) {
-    width: 700px;
-  }
+  width: 100%;
+  height: auto;
 `;
 
 export const StyledImg = styled.img`
@@ -199,11 +197,7 @@ function App() {
               padding: 24,
             }}
           >
-            <h1 className="heading-3">
-              Web3 <strong className="bold-text-7">opporunity</strong>
-              <br />
-              is just one <strong className="bold-text-6">mint </strong>away
-            </h1>
+            <img src="/config/images/cta.png" height="400px" />
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
@@ -305,7 +299,16 @@ function App() {
             <s.SpacerMedium />
           </s.Container>
 
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+          <s.Container
+            flex={3}
+            jc={"center"}
+            ai={"center"}
+            style={{
+              padding: 24,
+            }}
+          >
+            <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+          </s.Container>
         </ResponsiveWrapper>
       </s.Container>
     </s.Screen>
