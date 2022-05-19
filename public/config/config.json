@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0xAE6970caa26bC7f8c499e12C2148069A2D06cA11",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xae6970caa26bc7f8c499e12c2148069a2d06ca11",
+  "CONTRACT_ADDRESS": "0x3Eb2529D7A1c20B444e016db6F9A3443E5984b1D",
+  "SCAN_LINK": "https://etherscan.io/address/0x3eb2529d7a1c20b444e016db6f9a3443e5984b1d",
   "NETWORK": {
-    "NAME": "Rinkeby",
-    "SYMBOL": "Rin",
-    "ID": 4
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
   "NFT_NAME": "NFCommuniT",
   "SYMBOL": "NFCT",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nfcommunit",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/nfcommunit",
   "SHOW_BACKGROUND": false
 }
